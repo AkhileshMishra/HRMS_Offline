@@ -6,6 +6,10 @@
 hrms-offline-bundle/
 hrms-v15-*.tar.gz
 
+# Exception: Allow component archives in releases directory
+!releases/*.tar.gz
+!releases/hrms-v15-*.tar.gz
+
 # Installation directories
 /opt/hrms-offline/
 ~/hrms-bench/
